@@ -1,0 +1,99 @@
+#homeSection{
+    height: 100vh;
+    display: block;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/home-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    //left: 242px;
+}
+.introWrapper{
+	top: 50%;
+	position: relative;
+	transform : translate(0px,-50%);
+	
+	.intro{
+		text-align: center;
+	
+		h2{
+			width: 200px;
+			margin:0 auto;
+			color: #fff;
+			img{
+				border: 10px solid rgba(255,255,255,0.4);
+				border-radius: 50%;
+			}
+		}
+		h3.name{
+			font-family: Montserrat, "Open Sans", Arial, sans-serif;
+			letter-spacing: 2px;
+			font-size: 50px;
+			color: #ffffff;
+			line-height: 1.5;
+			span{
+				color: #ffcd11;
+			}
+		}
+		h4.interest{
+			font-family: 'Pacifico', cursive;
+			color: #ffffff;
+			font-size: 32px;
+
+			span{
+				color: #ffcd11;
+				font-family: 'Pacifico', cursive;
+			}
+		}
+		.hr {
+		    padding: 0 0 0 0;
+		    margin: 15px 0 10px 0;
+		    height: 5px;
+		    width: 200px;
+		    background: rgba(251,251,251,0.9);
+		    display: inline-table;
+		    border: 0;
+		}
+	}
+}
+
+
+
+.rw-words{
+    display: inline-block; 
+    min-width: 180px; 
+    min-height: 29px;
+    text-align: left; 
+    text-indent: 4px;
+}
+.rw-words-1 span{
+    position: absolute;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-animation: rotateWord 18s linear infinite 0s;
+    -ms-animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
+}
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+}
+.rw-words-1 span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+    -ms-animation-delay: 6s; 
+    animation-delay: 6s; 
+}
+.rw-words-1 span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+}
+.rw-words-1 span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+    -ms-animation-delay: 12s; 
+    animation-delay: 12s; 
+}
+.rw-words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+    -ms-animation-delay: 15s; 
+    animation-delay: 15s; 
+}
