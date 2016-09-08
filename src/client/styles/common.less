@@ -1,70 +1,155 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
-
 @color-text-yellow: #cea525;
 @white-text : #fff;
 @border-light-gray : #323131;
 @light-white-color : #c8c8c8;
-
-*{
-	margin: 0;
-	padding: 0;
-	outline: none;
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	//line-height: 24px;
-	padding: 0px;
-	margin: 0px;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    //line-height: 24px;
+    padding: 0px;
+    margin: 0px;
 }
-h1, h2, h3, h4, h5, h6 {
-	padding: 0;
-	margin : 0;
-}
-.heading{
-	//font-family: 
-}
-.sub-heading1{
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
 }
-.sub-heading2{
+ul{
+    list-style: none;
+}
+.no-padding{
+    padding:0;
+}
+.mar30{
+    margin:30px 0;
+}
+.heading-h1 {
+    //font-family: 
+}
 
+.sub-heading-h2 {}
+
+.sub-heading-h3 {
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1.5;
 }
-#sectionWrapper{
-	padding-left: 275px;
+
+.sub-heading-h4 {
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: "Open Sans", Arial, sans-serif;
 }
+
+#sectionWrapper {
+    padding-left: 275px;
+}
+
 img {
     max-width: 100%;
 }
 
-
 @-webkit-keyframes rotateWord {
-    0% { opacity: 0; }
-2% { opacity: 0; -webkit-transform: translateY(-30px); }
-5% { opacity: 1; -webkit-transform: translateY(0px);}
-17% { opacity: 1; -webkit-transform: translateY(0px); }
-20% { opacity: 0; -webkit-transform: translateY(30px); }
-80% { opacity: 0; }
-100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+    }
+    5% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
+
 @-ms-keyframes rotateWord {
-    0% { opacity: 0; }
-2% { opacity: 0; -ms-transform: translateY(-30px); }
-5% { opacity: 1; -ms-transform: translateY(0px);}
-17% { opacity: 1; -ms-transform: translateY(0px); }
-20% { opacity: 0; -ms-transform: translateY(30px); }
-80% { opacity: 0; }
-100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0;
+        -ms-transform: translateY(-30px);
+    }
+    5% {
+        opacity: 1;
+        -ms-transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -ms-transform: translateY(0px);
+    }
+    20% {
+        opacity: 0;
+        -ms-transform: translateY(30px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
+
 @keyframes rotateWord {
-    0% { opacity: 0; }
-2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
-5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
-20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
-80% { opacity: 0; }
-100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    5% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
