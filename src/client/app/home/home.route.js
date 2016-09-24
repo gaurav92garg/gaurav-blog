@@ -17,8 +17,8 @@
                 config: {
                     url: '/home',
                     templateUrl: homePath,
-                    //controller: 'Home',
-                    //controllerAs: 'vm',
+                    controller: 'HomeController',
+                    controllerAs: 'vm',
                     settings: {
                         nav: 1,
                         content: '<i class="fa fa-lock"></i> Admin'

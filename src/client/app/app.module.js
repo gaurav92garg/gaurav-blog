@@ -9,7 +9,8 @@
     'app.layout',
     'app.home',
     'app.profile',
-    'app.resume'
+    'app.resume',
+    'app.portfolio'
   ]);
 
 })();
